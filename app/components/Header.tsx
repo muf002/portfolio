@@ -28,14 +28,14 @@ export const Header = () => {
                 </a>
               </li>
               <li className="hover:text-purple-500">
-                <Link href="/contact" className="block pl-5 pr-5">
-                  BLOGS
-                </Link>
-              </li>
-              <li className="hover:text-purple-500">
                 <a href="/#contact" className="block pl-5 pr-5">
                   CONTACT
                 </a>
+              </li>
+              <li className="hover:text-purple-500">
+                <Link href="/contact" className="block pl-5 pr-5">
+                  RESUME 
+                </Link>
               </li>
             </ul>
           </div>
@@ -77,13 +77,16 @@ export const Header = () => {
                 </Link>
               </li>
               <li className="border-b border-solid w-full text-right">
-                <Link href="/contact" className="block py-5 px-5">
-                  BLOGS
+                <Link 
+                  href="/#contact" 
+                  className="block py-5 px-5" 
+                  onClick={() => setIsMenuOpen(!isMenuOpen)}>
+                    CONTACT
                 </Link>
               </li>
               <li className="border-b border-solid w-full text-right">
                 <Link href="/contact" className="block py-5 px-5">
-                  CONTACT
+                  REUSME
                 </Link>
               </li>
             </ul>
