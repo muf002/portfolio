@@ -33,9 +33,9 @@ export const Header = () => {
                 </a>
               </li>
               <li className="hover:text-purple-500">
-                <Link href="/contact" className="block pl-5 pr-5">
-                  RESUME 
-                </Link>
+                <a href="/Usman Farooq - Resume.pdf" target="_blank" rel="noopener noreferrer" className="block pl-5 pr-5">
+                 RESUME 
+                </a>
               </li>
             </ul>
           </div>
