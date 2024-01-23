@@ -12,47 +12,45 @@ export default function Home() {
         </h1>
         <div className="mt-9 mr-auto mb-0 ml-auto px-2 max-w-7xl">
           <p className="text-white text-center w-full font-sans text-base sm:text-xl leading-relaxed sm:leading-9">
-            A Frontend focused Web Developer building the Frontend of Websites
-            and Web Applications that leads to the success of the overall
-            product
+            A Full Stack Software Engineer with a keen interest in everything up-and-coming in tech and passionate about building meaningful applicaitons.
           </p>
         </div>
         <div className="mt-16 text-center">
           <button className="bg-white text-black font-sans font-bold text-lg uppercase rounded-md py-3 px-16">
-            <Link href={"/project"} className="tracking-widest">
+            <a href={"/#projects"} className="tracking-widest">
               Projects
-            </Link>
+            </a>
           </button>
         </div>
       </div>
       <div className="hidden sm:rounded-sm sm:absolute sm:top-2/4 sm:-translate-y-2/4 sm:flex flex-col sm:bg-white">
         <div className="relative aspect-square w-14 m-1 rounded-md inline-block hover:bg-purple-200">
-          <Link href={`/`} className="absolute w-full aspect-square">
+          <a href={`https://github.com/muf002`} target="_blank" rel="noopener noreferrer" className="absolute w-full aspect-square">
             <div className="grid place-items-center aspect-square">
               <BsGithub size={30} className=""></BsGithub>
             </div>
-          </Link>
+          </a>
         </div>
         <div className="relative aspect-square w-14 m-1 rounded-md inline-block hover:bg-purple-200">
-          <Link href={`/`} className="absolute w-full aspect-square">
+          <a href={`https://www.instagram.com/muf002/`} target="_blank" rel="noopener noreferrer" className="absolute w-full aspect-square">
             <div className="grid place-items-center aspect-square">
               <BsInstagram size={30} className=""></BsInstagram>
             </div>
-          </Link>
+          </a>
         </div>
         <div className="relative aspect-square w-14 m-1 rounded-md inline-block hover:bg-purple-200">
-          <Link href={`/`} className="absolute w-full aspect-square">
+          <Link href={`https://twitter.com/muf002`} target="_blank" rel="noopener noreferrer" className="absolute w-full aspect-square">
             <div className="grid place-items-center aspect-square">
               <BsTwitter size={30} className=""></BsTwitter>
             </div>
           </Link>
         </div>
         <div className="relative aspect-square w-14 m-1 rounded-md inline-block hover:bg-purple-200">
-          <Link href={`/`} className="absolute w-full aspect-square">
+          <a href={`https://www.linkedin.com/in/usman-farooq-44241a148/`} target="_blank" rel="noopener noreferrer" className="absolute w-full aspect-square">
             <div className="grid place-items-center aspect-square">
               <BsLinkedin size={30} className=""></BsLinkedin>
             </div>
-          </Link>
+          </a>
         </div>
       </div>
       <div

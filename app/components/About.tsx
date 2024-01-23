@@ -1,29 +1,28 @@
-import Project from "./Project";
 export default function About() {
   const skills = [
+    "Golang",
+    "NestJs",
+    "NodeJs",
+    "NextJs",
+    "JavaScript",
+    "TypeScript",
     "HTML",
     "CSS",
-    "JavaScript",
-    "React",
-    "SASS",
+    "ReactJs",
     "GIT",
-    "Shopify",
-    "Wordpress",
-    "Google Ads",
-    "Facebook Ads",
-    "Android",
-    "IOS",
+    "Angular",
+    "Command Line",
+    "Linux"
   ];
   return (
-    <section id="about" className="bg-neutral-50 py-32 px-0 pb-16 sm:pb-20 sm:h-screen">
-      <div className="m-auto max-w-[120rem] px-3 sm:px-0 sm:w-5/6">
+    <section id="about" className="bg-neutral-50 py-32 px-0 pb-16 sm:pb-20">
+      <div className="m-auto max-w-[120rem] px-3 sm:px-32">
         <h2 className="sm:mb-28 mb-16">
           <span className="block text-4xl font-semibold sm:font-bold uppercase text-center mb-12 relative tracking-wide after:content-[''] after:top-[calc(100%+1.2rem)] after:absolute after:h-1 after:w-8 after:bg-blue-700 after:rounded after:left-1/2 after:-translate-x-1/2">
             About Me
           </span>
           <span className="block text-center text-base sm:text-lg font-light sm:font-normal m-auto text-neutral-500 max-w-3xl leading-loose">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente
+            Here you will find more about me, my experience, passion projects I have build and much more in terms of my technical skills
           </span>
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 sm:gap-32 gap-20">
@@ -33,20 +32,18 @@ export default function About() {
             </h3>
             <div className="">
               <p className="max-w-xl text-sm sm:text-base font-normal mb-4 text-neutral-500 sm:leading-relaxed leading-loose">
-                Hey! It&lsquo;s<strong> John Doe </strong>
-                and I&lsquo;m a <strong> Frontend Web Developer </strong>{" "}
-                located in Los Angeles. I&lsquo;ve done
-                <strong> remote </strong>
-                projects for agencies, consulted for startups, and collaborated
-                with talented people to create
-                <strong> digital products </strong>
-                for both business and consumer use.
+                This is Usman Farooq, and I am a Full Stack Software engineer deeply engaged with all things tech.
+                Since secondary school, I have been playing with computers and different emerging technologies be it software or hardware. 
+              </p>
+              <p className="max-w-xl text-sm sm:text-base font-normal mb-4 text-neutral-500 sm:leading-relaxed leading-loose">
+                I completed my undergrad in CS from GIKI, Pakistan and since then I have been working with different startups and tech companies in building
+                impactful applications and meaningful businesses. Currently, I am working as a backend software engineer at a YC backed startup with cloud kitchen model building a product from the ground up that
+                provides lunch solutions to different businesses
               </p>
               <p className="max-w-xl text-sm sm:text-base mb-10 font-normal text-neutral-500 sm:leading-relaxed leading-loose">
-                I&lsquo;m a bit of a digital product junky. Over the years,
-                I&lsquo;ve used hundreds of web and mobile apps in different
-                industries and verticals. Feel free to
-                <strong> contact </strong> me here.
+                I want to solve meaningful and high-impact problems that improve the lives of the people around me. 
+                My interest areas include working on Distributed, Scalable, and High availability systems. 
+                I love building data-intensive applications and solving problems that require analysis and contain engineering/design challenges.
               </p>
             </div>
             <a
