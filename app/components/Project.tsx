@@ -2,11 +2,10 @@ import ProjectCard from "./ProjectCard";
 export default function Project() {
   const projects = [
     {
-      name: "System",
-      description: "A good desciption is to have between the projects and the believer in himself to rectify the amusment of the world",
-      githubUrl: "hello@hello",
-      demoUrl: "hello@hello",
-      imageUrl: "/lofi-winter-wallpaper-2560×1440.jpg"
+      name: "Virtual Cafeteria",
+      description: "A one-stop lunch solution for your employees. A platform where you can register your business and employees and get daily home-cooked lunch with a variety of different cuisines.",
+      demoUrl: "https://business.getbyte.app/#/en",
+      imageUrl: "/cloud=kitchen.png"
     },
     {
       name: "System",
