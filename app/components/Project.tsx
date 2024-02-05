@@ -8,11 +8,10 @@ export default function Project() {
       imageUrl: "/cloud-kitchen.png"
     },
     {
-      name: "System",
-      description: "A good desciption is to have between the projects and the believer in himself to rectify the amusment of the world",
-      githubUrl: "hello@hello",
-      demoUrl: "hello@hello",
-      imageUrl: "/lofi-winter-wallpaper-2560×1440.jpg"
+      name: "Order Delivery System",
+      description: "A complete solution for a food delivery service which aims to connect customers with restaurants, enabling them to browse menus, place orders, and manage deliveries.",
+      githubUrl: "https://github.com/muf002/food-delivery-application",
+      imageUrl: "/food-delivery.png"
     },
     {
       name: "System",
