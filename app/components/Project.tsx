@@ -5,7 +5,7 @@ export default function Project() {
       name: "Virtual Cafeteria",
       description: "A one-stop lunch solution for your employees. A platform where you can register your business and employees and get daily home-cooked lunch with a variety of different cuisines.",
       demoUrl: "https://business.getbyte.app/#/en",
-      imageUrl: "/cloud=kitchen.png"
+      imageUrl: "/cloud-kitchen.png"
     },
     {
       name: "System",
