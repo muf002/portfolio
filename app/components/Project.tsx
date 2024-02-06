@@ -11,7 +11,7 @@ export default function Project() {
       name: "Order Delivery System",
       description: "A complete solution for a food delivery service which aims to connect customers with restaurants, enabling them to browse menus, place orders, and manage deliveries.",
       githubUrl: "https://github.com/muf002/food-delivery-application",
-      imageUrl: "/food-delivery.png"
+      imageUrl: "/food-delivery.jpg"
     },
     {
       name: "System",
